@@ -1,0 +1,5 @@
+# Ignore Zone.Identifier files created by Windows
+*:Zone.Identifier
+
+# Ignore build artifacts
+project/target/
