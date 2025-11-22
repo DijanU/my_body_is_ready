@@ -1,56 +1,48 @@
-# Cursed Nintendo
+# Rust Raycasting Game
 
-## 💀 About 💀
+## 🎮 About
 
-Welcome to **Cursed Nintendo**, a project dedicated to exploring the unsettling, bizarre, and downright cursed aspects of Nintendo's beloved franchises. This isn't about glitches or speedruns; it's about the moments that make you question reality, the uncanny valley of character designs, and the dark corners of otherwise wholesome games.
+This is a 3D-like raycasting game developed in Rust. It features a maze environment, player movement, enemies, and audio effects, creating an immersive retro-style gaming experience.
 
-Prepare to have your childhood memories slightly (or severely) tainted.
+## ✨ Features
 
-## ✨ Features ✨
+*   **Raycasting Engine:** Pseudo-3D rendering of a maze environment.
+*   **Maze Generation:** Dynamic maze structures (e.g., `maze.txt`, `maze_hard.txt`).
+*   **Player Mechanics:** Movement, rotation, and interaction within the maze.
+*   **Enemy System:** Basic enemy AI and interaction.
+*   **Audio Integration:** Sound effects and background music for an enhanced experience.
+*   **Texture Mapping:** Walls and sprites with various textures.
 
-*   **Curated Collection:** A growing repository of images, videos, and anecdotes showcasing Nintendo's most cursed moments.
-*   **Deep Dives:** Analysis of *why* certain elements are so unsettling.
-*   **Community Contributions:** Share your own cursed findings (guidelines apply, no actual curses please).
-*   **Nostalgia-Shattering Content:** Experience your favorite games in a whole new, disturbing light.
+## 🚀 Installation & Usage
 
-## ⚠️ Warning ⚠️
-
-This project may contain content that is disturbing, unsettling, or otherwise not suitable for those who wish to preserve their innocent perception of Nintendo. Viewer discretion is advised. We are not responsible for any existential dread, sleepless nights, or sudden urges to cleanse your gaming console with holy water.
-
-## 🚀 Installation & Usage 🚀
-
-This is primarily a content repository. You don't "install" it in the traditional sense.
+To build and run this project, you need to have Rust and Cargo installed.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/cursed-nintendo.git
+    git clone https://github.com/your-username/raycasting_graficas.git
+    cd raycasting_graficas/project
     ```
-2.  **Browse the content:**
-    Navigate through the folders to find various cursed media and descriptions.
+2.  **Run the game:**
     ```bash
-    cd cursed-nintendo
-    ls
+    cargo run
     ```
 
-## 🤝 Contributing 🤝
+## 🕹️ Controls
 
-Found something truly cursed? We want to see it!
+*(Add specific game controls here, e.g., W, A, S, D for movement, mouse for looking, etc.)*
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/add-cursed-mario`).
-3.  Add your cursed content (images, videos, descriptions).
-4.  Ensure your contribution adheres to the "cursed" theme and is not just a regular glitch.
-5.  Commit your changes (`git commit -m 'Add cursed Mario eyes'`).
-6.  Push to the branch (`git push origin feature/add-cursed-mario`).
-7.  Open a Pull Request.
+## 📁 Project Structure
 
-Please include a brief explanation of *why* your submission is cursed.
+*   `src/main.rs`: Main entry point of the application.
+*   `src/audio.rs`: Handles sound effects and background music.
+*   `src/caster.rs`: Implements the raycasting logic for rendering the 3D view.
+*   `src/collectable.rs`: Defines collectable items within the game.
+*   `src/enemy.rs`: Manages enemy behavior and rendering.
+*   `src/framebuffer.rs`: Handles pixel manipulation and rendering to the screen.
+*   `src/maze.rs`: Logic for loading and managing the maze structure.
+*   `src/player.rs`: Manages player state, movement, and interactions.
+*   `src/textures.rs`: Handles loading and applying textures to game elements.
 
-## 📜 License 📜
+## 📜 License
 
-This project is open source under the MIT License. Feel free to fork, share, and be cursed.
-
-## 🙏 Acknowledgements 🙏
-
-*   To Nintendo, for inadvertently providing us with such rich, unsettling material.
-*   To the internet, for never letting anything truly wholesome remain untarnished.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
