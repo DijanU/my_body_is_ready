@@ -2,8 +2,9 @@
 
 ## 🎮 About
 
-This is a 3D-like raycasting game developed in Rust. It features a maze environment, player movement, enemies, and audio effects, creating an immersive retro-style gaming experience.
+The readme is made by gemini, it is trash... but my game is based on cursed nintendo ricet and reggie kills you if yopu dont steal the wiis at time :)
 
+here's the gameplay: https://youtu.be/Fa36qZ34N9o
 ## ✨ Features
 
 *   **Raycasting Engine:** Pseudo-3D rendering of a maze environment.
